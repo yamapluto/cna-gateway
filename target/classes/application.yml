@@ -32,11 +32,11 @@ spring:
           uri: http://localhost:8086
           predicates:
             - Path=/points/** 
-        - id: pointView
+        - id: pointList
           uri: http://localhost:8087
           predicates:
             - Path= /pointLists/**
-        - id: bookingView
+        - id: bookingList
           uri: http://localhost:8089
           predicates:
             - Path= /bookingLists/**
@@ -83,11 +83,11 @@ spring:
           uri: http://point:8080
           predicates:
             - Path=/points/** 
-        - id: pointView
+        - id: pointList
           uri: http://pointView:8080
           predicates:
             - Path= /pointLists/**
-        - id: bookingView
+        - id: bookingList
           uri: http://bookingView:8080
           predicates:
             - Path= /bookingLists/**
