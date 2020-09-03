@@ -84,7 +84,7 @@ spring:
           predicates:
             - Path=/points/** 
         - id: pointList
-          uri: http://pointView:8080
+          uri: http://pointList:8080
           predicates:
             - Path= /pointLists/**
         - id: bookingList
